@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
 body {
   font-size: 14px;
 }
@@ -13,7 +18,7 @@ body {
 
 .grid-wrapper{
   width: 950px;
-  height: 1424px;
+  height: 850px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -25,14 +30,18 @@ body {
 
 .project-header{
   width: 308px;
-  color: rgba(0,0,0,1);
   font-family: Inter;
-  font-weight:bold;
   font-size: 28px;
   opacity: 1;
   text-align: left;
   position: relative;
   margin: 0 auto;
+  color: #000;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 3.38px;
+  text-transform: uppercase;
 
 }
 .icon-holder{
@@ -263,4 +272,50 @@ body {
 .grid-item img {
   max-width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-wrapper {
+  background-color: black;
+}
+.footer-content{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font-family: Inter;
+}
+
+.footer-content > p{
+
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.icon-row {
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.links-row{
+  display:inline-flex;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 20px;
+}
+
+.links-row > a{
+  font-size: 20px;
+  font-weight: bold;
+color: #fff;
+text-decoration: underline;
 }
