@@ -4,8 +4,25 @@
 body {
   font-size: 14px;
 }
+
+.rectangle-wrapper{
+
+  width: 1150px;
+
+}
+
+.rectangle-wrapper::after{
+
+
+}
+
+.icon-holder{
+ 
+  right:-40px;
+}
+
 .v6_181 {
-  width: 100%;
+  width: 1150px;
   height: 1024px;
   background: rgba(255,255,255,1);
   opacity: 1;
@@ -13,50 +30,54 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  margin: 0 auto;
 }
 .v6_182 {
-  width: 80%;
+  width: 100%;
   height: 644px;
   background: rgba(255,76,121,1);
   opacity: 1;
-  position: absolute;
-  top: 256px;
-  left: 65px;
+  position: relative;
+  top: 156px;
+  left: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
+
+
+
 .v6_183 {
   width: 723px;
   height: 523px;
-  background: url("../images/v6_183.png");
+  background: url("../images/000.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 317px;
+  top: 217px;
   left: 194px;
   overflow: hidden;
 }
 .v6_184 {
-  width: 442px;
+  width: 392px;
   height: 392px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 378px;
-  left: 776px;
+  top: 278px;
+  left: 726px;
   overflow: hidden;
 }
 .v6_185 {
   width: 255px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 465px;
-  left: 835px;
+  top: 365px;
+  left: 817px;
   font-family: Inter;
   font-weight: Black;
   font-size: 45px;
@@ -66,15 +87,11 @@ body {
 .v6_207 {
   width: 361px;
   height: 27px;
-  background: url("../images/v6_207.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 154px;
-  left: 1002px;
+  top: 54px;
   overflow: hidden;
+  right: 0px;
 }
 .v6_199 {
   width: 71px;
@@ -116,8 +133,8 @@ body {
   width: 238px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 547px;
-  left: 835px;
+  top: 447px;
+  left: 817px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 16px;
@@ -133,9 +150,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 650px;
-  left: 835px;
-  overflow: hidden;
+  top: 550px;
+  left: 817px;
 }
 .v6_194 {
   width: 76px;
@@ -152,17 +168,21 @@ body {
 .v6_195 {
   width: 116px;
   height: 42px;
-  background: url("../images/v6_195.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
   border: 1px solid rgba(0,0,0,1);
-  overflow: hidden;
+  cursor: pointer;
+  overflow: visible;
+  transition: all 0.3s ease-in-out;
 }
+
+.v6_195:hover{
+  transform: scale(1.2);
+  overflow: visible;
+}
+
 .v6_198 {
   width: 303px;
   height: 77px;
@@ -172,8 +192,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 129px;
-  left: 65px;
+  top: 29px;
+  left: 0px;
   overflow: hidden;
 }
 .v6_216 {
@@ -185,7 +205,7 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 847px;
+  top: 747px;
   left: 1388px;
   overflow: hidden;
 }
@@ -198,156 +218,7 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 820px;
+  top: 720px;
   left: 1388px;
   overflow: hidden;
-}
-.v6_222 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v6_251 {
-  width: 100%;
-  height: 717px;
-  background: url("../images/v6_251.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 111px;
-  left: 65px;
-  overflow: hidden;
-}
-.v6_226 {
-  width: 308px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 145px;
-  left: 65px;
-  font-family: Inter;
-  font-weight: Black;
-  font-size: 52px;
-  opacity: 1;
-  text-align: left;
-}
-
-.v6_222 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v6_251 {
-  width: 100%;
-  height: 717px;
-  background: url("../images/v6_251.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 244px;
-  left: 56px;
-  overflow: hidden;
-}
-.v6_224 {
-  width: 459px;
-  height: 717px;
-  background: url("../images/v6_224.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v6_246 {
-  width: 370px;
-  height: 261px;
-  background: url("../images/v6_246.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 456px;
-  left: 958px;
-  overflow: hidden;
-}
-.v6_248 {
-  width: 370px;
-  height: 429px;
-  background: url("../images/v6_248.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 958px;
-  overflow: hidden;
-}
-.v6_250 {
-  width: 459px;
-  height: 717px;
-  background: url("../images/v6_250.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 479px;
-  overflow: hidden;
-}
-.v6_244 {
-  width: 459px;
-  height: 261px;
-  background: url("../images/v6_244.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v6_245 {
-  width: 459px;
-  height: 429px;
-  background: url("../images/v6_245.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 288px;
-  left: 0px;
-  overflow: hidden;
-}
-.v6_226 {
-  width: 308px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 145px;
-  left: 65px;
-  font-family: Inter;
-  font-weight: Black;
-  font-size: 52px;
-  opacity: 1;
-  text-align: left;
 }
