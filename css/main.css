@@ -13,7 +13,7 @@ body {
 
 .grid-wrapper{
   width: 950px;
-  height: 1024px;
+  height: 1424px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -250,8 +250,8 @@ body {
 .grid-container {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1px;  /* Adjust this value if you need spacing between images */
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;  /* Adjust this value if you need spacing between images */
   width: 950px;
 }
 
