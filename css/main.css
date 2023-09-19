@@ -11,11 +11,30 @@ body {
 
 }
 
-.rectangle-wrapper::after{
-
-
+.grid-wrapper{
+  width: 950px;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
+.project-header{
+  width: 308px;
+  color: rgba(0,0,0,1);
+  font-family: Inter;
+  font-weight: Black;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+
+}
 .icon-holder{
  
   right:-40px;
@@ -23,7 +42,7 @@ body {
 
 .v6_181 {
   width: 950px;
-  height: 1024px;
+  height: 910px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -221,4 +240,27 @@ body {
   top: 720px;
   left: 1388px;
   overflow: hidden;
+}
+
+
+
+
+
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;  /* Adjust this value if you need spacing between images */
+  width: 950px;
+}
+
+.grid-item {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
 }
