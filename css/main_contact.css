@@ -1,0 +1,160 @@
+.contact-container {
+
+    width: 100%;
+    max-width: 950px;
+    height: 2870px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .contact-header p {
+    width: 500px;
+    font-family: Inter;
+    font-size: 52px;
+    opacity: 1;
+    text-align: left;
+    position: relative;
+    color: #000;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.38px;
+    text-transform: uppercase;
+    
+  }
+
+  .contact-section-one {
+    width: 100%;
+    max-width: 950px;
+    height: 156px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+  }
+
+  .about-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .custom-form {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #bd531d;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a4431b;
+}
+
+.form-container {
+    height: 405px;
+    width: 700px;
+}
+
+#contact-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    border: 1px solid;
+}
+
+#contact-form p {
+    margin-bottom: 20px;
+}
+
+
+#contact-form label:nth-last-child(2n) {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+}
+
+/* Make textarea span the full width */
+#contact-form textarea {
+    height: 200px;
+    width: 100%;
+    resize: none;
+}
+
+#contact-form > p > label {
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 1.43px;
+    line-height: normal;
+}
+
+#contact-form > p {
+    margin-bottom: 15px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#message {
+    margin-top: 40px;
+}
+
+
+#contact-form button {
+    position: relative;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: 1px solid #000;
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    font-size: 14px; /* Increase font size */
+    font-family: Inter;
+    background-color: #fff;
+    overflow: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#contact-form button::hover {
+    transform: scale(1.1);
+    overflow: visible;
+  }

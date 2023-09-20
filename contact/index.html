@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/main_contact.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Services | J. Howard</title>
+
+</head>
+
+<body>
+    <div class="about-section-one">
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="/"><img src="/images/full_logo.png" width="303px" height="77px"></a>
+            </div>
+            <div class="link-container-wrapper"></div>
+            <div class="link-container">
+                <a href="/about/">About</a>
+                <a href="/services/">Services</a>
+                <a href="/contact/">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+
+        <!--
+        <div class="contact-header">
+            <p>Services</p>
+        </div>
+    -->
+<div class="form-wrapper">
+    <div class="form-container">
+        <form name="contact" method="POST" data-netlify="true" id="contact-form">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label id="message">Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+</div>
+</div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <img src="/images/logo_nobg.png" class="footer-image">
+                <p>Please reach out if you have any questions about services & future projects.</p>
+                <div class="links-row">
+                    <a href="/about/">About</a>
+                    <a href="/services/">Services</a>
+                    <a href="/contact/">Contact</a>
+                </div>
+                <div class="icon-row">
+                    <img src="/images/links/1.png">
+                    <img src="/images/links/2.png">
+                    <img src="/images/links/3.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script>
+// Get the button:
+let mybutton = document.getElementById("toTopBtn");
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+</body>
+
+
+</html>

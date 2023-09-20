@@ -375,7 +375,7 @@ margin-bottom: 20px;
 }
 
 #toTopBtn::hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   overflow: visible;
 }
 
@@ -385,4 +385,19 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.services-section-one {
+  width: 100%;
+  max-width: 950px;
+  height: 156px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  margin: 0 auto;
+
 }
