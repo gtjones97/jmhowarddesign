@@ -142,21 +142,14 @@ label {
 #contact-form button {
     position: relative;
     z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: 1px solid #000;
+    border: 1px solid; /* Remove borders */
     color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 20px; /* Some padding */
     font-size: 14px; /* Increase font size */
     font-family: Inter;
     background-color: #fff;
     overflow: visible;
     transition: all 0.3s ease-in-out;
     margin-top: 30px;
+    padding: 15px;
 }
-
-
-#contact-form button::hover {
-    transform: scale(1.1);
-    overflow: visible;
-  }
