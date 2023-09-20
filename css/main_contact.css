@@ -2,7 +2,7 @@
 
     width: 100%;
     max-width: 950px;
-    height: 600px;
+    height: 708px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: relative;
@@ -91,6 +91,7 @@
     border-radius: 8px;
     max-width: 800px;
     border: 1px solid;
+    margin-top: 50px;
 }
 
 #contact-form p {
