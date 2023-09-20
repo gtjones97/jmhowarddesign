@@ -145,7 +145,7 @@
 
     width: 100%;
     max-width: 950px;
-    height: 850px;
+    height: 3200px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: relative;
@@ -154,6 +154,8 @@
     overflow: hidden;
     margin: 0 auto;
   }
+
+
 
  .work-history-entry-container {
     width: 950px;
@@ -191,6 +193,7 @@
 
 .column-a h2 {
   color: #484C70;
+  text-transform: uppercase;
 }
 
 .column-a h2::before{
@@ -255,7 +258,7 @@ line-height: 153.523%; /* 21.493px */
   margin-left: 20px;
   margin-right: 20px;
   background-color: #fff;
-  height: 356px;
+  height: 440px;
   border-radius: 10px;
   display: flex;
 }
@@ -282,4 +285,8 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 153.523%;
+}
+
+.work-history-spacer {
+  margin-top: 35px;
 }
