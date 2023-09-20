@@ -15,7 +15,7 @@
   .contact-header p {
     width: 500px;
     font-family: Inter;
-    font-size: 52px;
+    font-size: 48px;
     opacity: 1;
     text-align: left;
     position: relative;
@@ -123,6 +123,7 @@ label {
     font-size: 18px;
     letter-spacing: 1.43px;
     line-height: normal;
+    text-transform: uppercase;
 }
 
 #contact-form > p {
@@ -152,4 +153,13 @@ label {
     transition: all 0.3s ease-in-out;
     margin-top: 30px;
     padding: 15px;
+}
+
+
+#contact-form > p > label > input[type=text] {
+    width: 300px;
+}
+
+#contact-form > p > label > input[type=email] {
+    width: 300px;
 }

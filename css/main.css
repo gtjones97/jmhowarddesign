@@ -16,7 +16,7 @@ body {
 
 .link-container {
   display: flex;
-  gap: 5em;
+  gap: 50px;
   position: absolute;
   right: 0;
   top: 54px;
@@ -47,6 +47,22 @@ body {
   width: 100%;
   max-width: 950px;
 
+}
+
+.section-header p{
+  font-family: Inter;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+    color: #000;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.38px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .grid-wrapper {
@@ -167,7 +183,7 @@ body {
 }
 
 .v6_185 {
-  width: 255px;
+  width: 280px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 365px;
@@ -356,6 +372,7 @@ body {
 
 .grid-item img {
   max-width: 100%;
+  cursor: default;
   height: auto;
 }
 

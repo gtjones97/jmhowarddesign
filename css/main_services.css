@@ -54,7 +54,7 @@
     font-family: "Inter", Helvetica;
     font-weight: 900;
     color: #000000;
-    font-size: 52px;
+    font-size: 48px;
     letter-spacing: 3.38px;
     line-height: normal;
   }
@@ -128,7 +128,7 @@
   .services-header > p {
     width: 500px;
     font-family: Inter;
-    font-size: 52px;
+    font-size: 48px;
     opacity: 1;
     text-align: left;
     position: relative;
@@ -145,13 +145,12 @@
 
     width: 100%;
     max-width: 950px;
-    height: 2870px;
+    height: 2850px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: relative;
     top: 0px;
     left: 0px;
-    overflow: hidden;
     margin: 0 auto;
   }
 
@@ -299,12 +298,20 @@ line-height: 153.523%;
   gap: 5px;
   margin-bottom: 100px;
   margin-top:20px;
+  overflow: visible;
 }
 
 .image-row img {
   width: 232px;
   height: 232px;
   object-fit: cover;
+  overflow: visible;
+}
+
+.image-row img:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+
 }
 
 .service-details-list li {
