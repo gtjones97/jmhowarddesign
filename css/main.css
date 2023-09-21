@@ -111,7 +111,7 @@ body {
 .v6_181 {
   width: 100%;
   max-width: 950px;
-  height: 910px;
+  height: 1180px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   /*position: relative;*/
@@ -128,7 +128,6 @@ body {
 .about-section-one {
   width: 100%;
   max-width: 950px;
-  height: 156px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
@@ -542,7 +541,7 @@ footer {
     }
 }
 
-body > div > div.v6_181 > nav > div > div > a > img {
+#topnav-logo {
   width: 228px;
   height: 58px;
 }
@@ -555,7 +554,7 @@ body > div > div.v6_181 > nav > div > div > a > img {
 @media screen and (max-width: 768px) {
   
   .page-wrapper {
-    margin-left: 10px;
+    margin: 0 auto;
     width: 95%;
   }
   
