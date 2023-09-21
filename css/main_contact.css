@@ -1,5 +1,4 @@
 .contact-container {
-
     width: 100%;
     max-width: 950px;
     height: 708px;
@@ -10,9 +9,9 @@
     left: 0px;
     overflow: hidden;
     margin: 0 auto;
-  }
+}
 
-  .contact-header p {
+.contact-header p {
     width: 500px;
     font-family: Inter;
     font-size: 48px;
@@ -25,10 +24,9 @@
     line-height: normal;
     letter-spacing: 3.38px;
     text-transform: uppercase;
-    
-  }
+}
 
-  .contact-section-one {
+.contact-section-one {
     width: 100%;
     max-width: 950px;
     height: 156px;
@@ -39,16 +37,15 @@
     left: 0px;
     overflow: hidden;
     margin: 0 auto;
-  
-  }
+}
 
-  .about-section-container {
+.about-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .custom-form {
+.custom-form {
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 0 auto;
@@ -62,7 +59,6 @@
     padding: 0;
     margin: 0;
 }
-
 
 .btn {
     display: inline-block;
@@ -97,7 +93,6 @@
 #contact-form p {
     margin-bottom: 20px;
 }
-
 
 #contact-form label:nth-last-child(2n) {
     margin-right: 0;
@@ -139,14 +134,18 @@ label {
     margin-top: 40px;
 }
 
-
 #contact-form button {
     position: relative;
-    z-index: 99; /* Make sure it does not overlap */
-    border: 1px solid; /* Remove borders */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    font-size: 14px; /* Increase font size */
+    z-index: 99;
+ /* Make sure it does not overlap */
+    border: 1px solid;
+ /* Remove borders */
+    color: black;
+ /* Text color */
+    cursor: pointer;
+ /* Add a mouse pointer on hover */
+    font-size: 14px;
+ /* Increase font size */
     font-family: Inter;
     background-color: #fff;
     overflow: visible;
@@ -155,9 +154,9 @@ label {
     padding: 15px;
 }
 
-
 #contact-form > p > label > input[type=text] {
     width: 300px;
+    color: rgba(255, 76, 121, 1);
 }
 
 #contact-form > p > label > input[type=email] {
@@ -176,24 +175,23 @@ label {
         max-width: 356px;
     }
 
-    
-#contact-form > p > label > input[type=email] {
-    width: 169px;
-}
+    #contact-form > p > label > input[type=email] {
+        width: 169px;
+    }
 
-#contact-form > p > label > input[type=text] {
-    width: 169px;
-}
+    #contact-form > p > label > input[type=text] {
+        width: 169px;
+    }
 
-.form-container {
-    width: 344px;
-}
+    .form-container {
+        width: 344px;
+    }
 
-#contact-form button {
-    margin-top: unset;
-}
+    #contact-form button {
+        margin-top: unset;
+    }
 
-#message {
-    margin-top: 25px;
+    #message {
+        margin-top: 25px;
+    }
 }
-  }
