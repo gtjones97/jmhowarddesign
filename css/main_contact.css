@@ -172,7 +172,28 @@ label {
     
     
     #contact-form {
-
+        height: 500px;
         max-width: 356px;
     }
+
+    
+#contact-form > p > label > input[type=email] {
+    width: 169px;
+}
+
+#contact-form > p > label > input[type=text] {
+    width: 169px;
+}
+
+.form-container {
+    width: 344px;
+}
+
+#contact-form button {
+    margin-top: unset;
+}
+
+#message {
+    margin-top: 25px;
+}
   }
