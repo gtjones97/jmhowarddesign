@@ -42,12 +42,6 @@ body {
   justify-content: flex-end;
 }
 
-.rectangle-wrapper {
-
-  width: 100%;
-  max-width: 950px;
-
-}
 
 .section-header p{
   font-family: Inter;
@@ -68,7 +62,7 @@ body {
 .grid-wrapper {
   width: 100%;
   max-width: 950px;
-  height: 850px;
+  height:100%;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
@@ -76,6 +70,7 @@ body {
   left: 0px;
   overflow: hidden;
   margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 .project-header {
@@ -102,11 +97,11 @@ body {
 .header-logo{
   width: 303px;
   height: 77px;
-  position: absolute;
   top: 29px;
   left: 0px;
   overflow: hidden;
-
+  display: flex;
+  align-items: center;
 }
 .icon-holder {
 
@@ -119,12 +114,16 @@ body {
   height: 910px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
-  position: relative;
+  /*position: relative;*/
   top: 29px;
   left: 0px;
   overflow: hidden;
   margin: 0 auto;
 }
+
+
+
+
 
 .about-section-one {
   width: 100%;
@@ -153,12 +152,14 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 
 
 .v6_183 {
-  width: 723px;
+  width: 82%;
   height: 523px;
   background: url("../images/000.png");
   background-repeat: no-repeat;
@@ -166,19 +167,18 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 217px;
-  left: 94px;
-  overflow: hidden;
+  overflow: visible;
+  margin-left: 6em;
 }
 
 .v6_184 {
   width: 392px;
   height: 392px;
   background: rgba(255, 255, 255, 1);
-  opacity: 1;
+  opacity: 0.9;
   position: absolute;
-  top: 278px;
-  left: 526px;
+  top: 63px;
+  right: -40px;
   overflow: hidden;
 }
 
@@ -186,8 +186,8 @@ body {
   width: 280px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 365px;
-  left: 617px;
+  top: 64px;
+  right: 40px;
   font-family: Inter;
   font-weight: 900;
   font-size: 45px;
@@ -256,8 +256,8 @@ body {
   width: 266px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 447px;
-  left: 617px;
+  top: 164px;
+  right: 52px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 16px;
@@ -274,8 +274,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 550px;
-  left: 617px;
+  top: 282px;
+  right: 202px;
 }
 
 .v6_194 {
@@ -376,6 +376,21 @@ body {
   height: auto;
 }
 
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* Adjust this value if you need spacing between images */
+  width: 90%;
+  }
+
+  .grid-wrapper {
+    height: 1488px;
+  }
+
+}
+
 footer {
   background-color: black;
   color: white;
@@ -444,7 +459,7 @@ footer {
   }
 
   .footer-content {
-    width: 400px;
+    width: 321px;
   }
 
 }
@@ -463,16 +478,10 @@ footer {
   flex: 1;
 }
 
-.custom-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .custom-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -533,3 +542,75 @@ footer {
     }
 }
 
+body > div > div.v6_181 > nav > div > div > a > img {
+  width: 228px;
+  height: 58px;
+}
+
+.custom-navbar {
+  margin-top: 20px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  
+  .page-wrapper {
+    margin-left: 10px;
+    width: 95%;
+  }
+  
+  .v6_181 {
+    height: 823px;
+
+  }
+
+  .v6_182 {
+    top: 25px !important;
+  }
+
+  .v6_183 {
+    margin-left: 3em !important;
+  }
+
+  .v6_184 {
+    width: 271px;
+    height: 310px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.9;
+    position: absolute;
+    top: 117px;
+    right: -10px;
+    overflow: hidden;
+  }
+
+  .v6_185 {
+    right: -45px;
+    font-size: 36px;
+  }
+
+  .v6_192 {
+    width: 205px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 125px;
+    right: 29px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v6_197 {
+    width: 116px;
+    height: 42px;
+    background: url("../images/v6_197.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 232px;
+    right: 117px;
+  }
+}
