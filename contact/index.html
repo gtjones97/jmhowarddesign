@@ -13,19 +13,24 @@
 </head>
 
 <body>
-    <div class="about-section-one">
-        <div class="header-container">
-            <div class="header-logo">
-                <a href="/"><img src="/images/full_logo.png" width="303px" height="77px"></a>
+    <div class="page-wrapper">
+    <div class="nav-wrapper">
+        <nav class="custom-navbar">
+            <div class="custom-container">
+                <div class="header-logo" style="position: unset;">
+                <a href="/"><img src="/images/full_logo.png" id="topnav-logo"></a>
+                </div>
+                <button class="custom-hamburger" onclick="toggleMenu()">☰</button>
+                <ul class="custom-menu">
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ul>
             </div>
-            <div class="link-container-wrapper"></div>
-            <div class="link-container">
-                <a href="/about/">About</a>
-                <a href="/services/">Services</a>
-                <a href="/contact/">Contact</a>
-            </div>
+        </nav>  
+    
         </div>
-    </div>
+
 
     <div class="contact-container">
 
@@ -57,7 +62,7 @@
 
     </div>
 
-
+</div>
 
     <footer>
         <div class="footer-wrapper">

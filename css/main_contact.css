@@ -163,3 +163,16 @@ label {
 #contact-form > p > label > input[type=email] {
     width: 300px;
 }
+
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    
+    
+    #contact-form {
+
+        max-width: 356px;
+    }
+  }

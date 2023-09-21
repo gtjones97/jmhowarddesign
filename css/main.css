@@ -14,6 +14,13 @@ body {
   font-size: 14px;
 }
 
+
+.nav-wrapper {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 .link-container {
   display: flex;
   gap: 50px;
@@ -111,7 +118,7 @@ body {
 .v6_181 {
   width: 100%;
   max-width: 950px;
-  height: 1180px;
+  height: 909px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   /*position: relative;*/
@@ -581,6 +588,7 @@ footer {
     right: -10px;
     overflow: hidden;
   }
+
 
   .v6_185 {
     right: -45px;
