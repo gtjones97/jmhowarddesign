@@ -120,7 +120,7 @@ body {
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: 29px;
   left: 0px;
   overflow: hidden;
   margin: 0 auto;
@@ -146,7 +146,7 @@ body {
   background: rgba(255, 76, 121, 1);
   opacity: 1;
   position: relative;
-  top: 156px;
+  top: 82px;
   left: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -462,3 +462,74 @@ footer {
 .about-photo {
   flex: 1;
 }
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.custom-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 76, 121, 1);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.custom-menu {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.custom-menu li a {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 22px;
+  color: black;
+  margin-right: 25px;
+}
+
+.custom-menu li a:hover {
+    background-color: rgba(255, 76, 121, 0.5);
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .custom-hamburger {
+        display: block;
+    }
+
+    .custom-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .custom-menu li {
+        text-align: center;
+    }
+}
+
