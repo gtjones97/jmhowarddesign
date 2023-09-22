@@ -13,12 +13,20 @@ body {
   font-size: 14px;
 }
 
+
+
 .general-text {
   color: rgba(0, 0, 0, 1);
   font-family: Inter;
   font-size: 16px;
   opacity: 1;
   text-align: left;
+}
+
+.blob {
+position: relative;
+top: -61px;
+right: -65px;
 }
 
 .nav-wrapper {
@@ -179,14 +187,14 @@ body {
 }
 
 .v6_184 {
-  width: 392px;
-  height: 392px;
-  background: rgba(255, 255, 255, 1);
+  width: 542px;
+  height: 492px;
+  /*background: rgba(255, 255, 255, 1);*/
   opacity: 0.9;
   position: absolute;
   top: 63px;
   right: -40px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .v6_185 {

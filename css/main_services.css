@@ -124,6 +124,7 @@
   object-fit: cover;
 }
 
+
 .services-header > p {
   width: 500px;
   font-size: 48px;
@@ -137,6 +138,17 @@
   color: #000000;
   letter-spacing: 3.38px;
   line-height: normal;
+}
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #023F92;
+  width: 25vmax;
+  z-index: 0;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
 }
 
 .services-container {
