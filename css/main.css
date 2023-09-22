@@ -23,12 +23,6 @@ body {
   text-align: left;
 }
 
-.blob {
-position: relative;
-top: -61px;
-right: -65px;
-}
-
 .nav-wrapper {
   width: 100%;
   max-width: 950px;
@@ -187,14 +181,14 @@ right: -65px;
 }
 
 .v6_184 {
-  width: 542px;
-  height: 492px;
-  /*background: rgba(255, 255, 255, 1);*/
+  width: 392px;
+  height: 392px;
+  background: rgba(255, 255, 255, 1);
   opacity: 0.9;
   position: absolute;
   top: 63px;
   right: -40px;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .v6_185 {

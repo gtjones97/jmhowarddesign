@@ -140,16 +140,7 @@
   line-height: normal;
 }
 
-.blob {
-  position: absolute;
-  top: 0;
-  left: 0;
-  fill: #023F92;
-  width: 25vmax;
-  z-index: 0;
-  animation: move 10s ease-in-out infinite;
-  transform-origin: 50% 50%;
-}
+
 
 .services-container {
   width: 100%;
