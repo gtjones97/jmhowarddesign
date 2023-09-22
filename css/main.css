@@ -509,6 +509,7 @@ footer {
   color: rgba(255, 76, 121, 1);
 }
 
+
 @media (max-width: 768px) {
   .custom-hamburger {
       display: block;
