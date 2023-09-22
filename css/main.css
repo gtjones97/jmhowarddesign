@@ -13,6 +13,14 @@ body {
   font-size: 14px;
 }
 
+.general-text {
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
 .nav-wrapper {
   width: 100%;
   max-width: 950px;
@@ -90,6 +98,11 @@ body {
   line-height: normal;
   letter-spacing: 3.38px;
   text-transform: uppercase;
+}
+
+.project-subheader {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header-container {
