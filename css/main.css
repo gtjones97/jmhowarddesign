@@ -359,7 +359,7 @@ body {
 
 .grid-item img {
   max-width: 100%;
-  cursor: default;
+  cursor: pointer;
   height: auto;
 }
 
