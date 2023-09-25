@@ -72,7 +72,9 @@
   }
 
   .client-grid-column img:hover {
-    transform: scale(1.8);
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
 
@@ -132,6 +134,7 @@
 
     .client-grid-column img:hover {
       transform: unset;
+      box-shadow: none;
     }
   }
   
@@ -145,6 +148,7 @@
 
     .client-grid-column img:hover {
       transform: unset;
+      box-shadow: none1.7;
     }
 
     .content-wrapper {
