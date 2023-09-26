@@ -81,6 +81,14 @@
     width: 700px;
 }
 
+.bernard-container {
+    height: 71.5px;
+    width: 79px;
+    position: relative;
+
+}
+
+
 #contact-form {
     background-color: #ffffff;
     padding: 40px;
@@ -193,5 +201,11 @@ label {
 
     #message {
         margin-top: 25px;
+    }
+
+    #bernard {
+        position: relative;
+        right: -178px;
+        top: -354px;
     }
 }
