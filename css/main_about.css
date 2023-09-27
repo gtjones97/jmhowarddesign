@@ -129,8 +129,34 @@
   object-fit: cover;
 }
 
+
+
+
+
+.resume-button {
+  
+    padding: 10px 20px; /* 10px padding top/bottom, 20px padding left/right */
+    border: none;
+    border-radius: 10px; /* This gives the button rounded corners */
+    background-color: rgba(255, 76, 121, 1); /* Button color */
+    color: white; /* Text color */
+    cursor: pointer;
+     font-family: Inter;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 153.523%;
+
+  }
+
+  .resume-button:hover {
+    background-color: rgba(223, 41, 96, 1);
+  }
+
 .work-history-header > p {
-  width: 500px;
+  width: 100%;
+  max-width: 300px;
   font-family: Inter;
   font-size: 28px;
   opacity: 1;
@@ -157,6 +183,20 @@
   overflow: hidden;
   margin: 0 auto;
 }
+
+.work-history-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 440px;
+    align-items: center;
+}
+
+.work-history-header {
+  width: 100%;
+  max-width: 260px;
+}
+
 
 .work-history-entry-container {
   width: 100%;
@@ -360,6 +400,15 @@ height: 100%;
 
 .about .overlap-group {
   height: 526px;
+}
+
+.work-history-header-container{
+  display: flex;
+  width: 100%;
+  max-width: 440px;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: flex-start;
 }
 
 body > div > div.about-section-one > div.section-one-wrapper > div > div.about-section > div {
