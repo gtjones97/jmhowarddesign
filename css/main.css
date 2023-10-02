@@ -570,7 +570,7 @@ footer {
 
   .v6_184 {
       width: 271px;
-      height: 310px;
+      height: 380px;
       background: rgba(255, 255, 255, 1);
       opacity: 0.9;
       position: absolute;
@@ -606,7 +606,7 @@ footer {
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 232px;
+      top: 299px;
       right: 117px;
   }
 }
