@@ -199,7 +199,7 @@ body {
   right: 40px;
   font-family: Inter;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 34px;
   opacity: 1;
   text-align: left;
   line-height: normal;
@@ -263,7 +263,7 @@ body {
   width: 266px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 164px;
+  top: 138px;
   right: 52px;
   font-family: Inter;
   font-weight: Regular;
@@ -581,7 +581,7 @@ footer {
 
   .v6_185 {
       right: -45px;
-      font-size: 36px;
+      font-size: 24px;
   }
 
   .v6_192 {
