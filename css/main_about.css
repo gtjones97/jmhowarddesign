@@ -2,7 +2,7 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  gap: 271px;
+  gap: 143px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -19,13 +19,15 @@
 }
 
 .about-section {
-  width: 48%;
+  width: 100%;
+  top: -30px;
+  position: relative;
 }
 
 .about .rectangle {
   position: relative;
   width: 352px;
-  height: 592px;
+  height: 535px;
   top: 0;
   left: 0;
   background-color: #3a405a;
@@ -34,9 +36,9 @@
 
 .about .img {
   position: absolute;
-  width: 459px;
-  height: 473px;
-  top: 70px;
+  width: 372px; 
+  height: 383px;
+  top: 73px;
   left: 29px;
   object-fit: cover;
   border-radius: 10px;
@@ -68,7 +70,6 @@
   /*position: absolute;
   top: 367px;
   left: 590px; */
-  max-width: 355px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -413,6 +414,9 @@ height: 100%;
   left: 80px !important;
 }
 
+.about .img {
+  top: 43px;
+}
 .about-section {
   width: 100%;
 }
