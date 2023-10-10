@@ -96,6 +96,7 @@
     max-width: 800px;
     border: 1px solid;
     margin-top: 50px;
+    max-height: 578px;
 }
 
 #contact-form p {
@@ -171,6 +172,17 @@ label {
     width: 300px;
 }
 
+.contact-header-message {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: it;
+    font-weight: 300;
+    line-height: 153.523%;
+    box-sizing: border-box;
+    color: rgba(255, 76, 121, 1);
+    margin-top: 0px;
+    margin-bottom: 30px !important;
+}
 
 
 
@@ -179,7 +191,7 @@ label {
     
     
     #contact-form {
-        height: 500px;
+        height: 555px;
         max-width: 356px;
     }
 
@@ -196,7 +208,7 @@ label {
     }
 
     #contact-form button {
-        margin-top: unset;
+        margin-top: 12px;
     }
 
     #message {
