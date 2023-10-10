@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Received</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="/css/main_client.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Inter, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 76, 121, 1);
+        }
+
+        /* Text Box Styles */
+        .text-box {
+            border-radius: 20px;
+            padding: 60px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+            /* Ensures the box doesn't stretch too wide on large screens */
+        }
+
+        /* Arrow Styles */
+        .arrow-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .arrow-link:after {
+            content: '➜';
+            margin-left: 10px;
+        }
+
+        .back-button-container {
+            margin-bottom: 0px;
+            margin-top: 50px;
+        }
+        
+        .back-button-container::hover {
+            transform: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .text-box {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            .back-button-container {
+                margin-left: 0px !important;
+                margin-bottom: 0px !important;
+                margin-top: 50px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-box">
+        <img src="/images/logo_nobg.png">
+        <h1>Success!</h1>
+        <p>Your message has been received. Thank you for reaching out. I'll get back to you as soon as possible.</p>
+
+        <div class="back-button-container">
+            <a href="/"><div class="circle">
+                <div class="arrow"></div>
+            </div></a>
+            <div class="back-button-text">Back to website</div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
