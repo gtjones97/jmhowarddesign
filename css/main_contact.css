@@ -116,6 +116,7 @@ label {
     height: 200px;
     width: 100%;
     resize: none;
+    color: rgba(255, 76, 121, 1);
 }
 
 #contact-form > p > label {
@@ -170,7 +171,10 @@ label {
 
 #contact-form > p > label > input[type=email] {
     width: 300px;
+    color: rgba(255, 76, 121, 1);
 }
+
+
 
 .contact-header-message {
     font-family: Inter;
