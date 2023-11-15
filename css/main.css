@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+  cursor: url(/images/cursor-24.png),auto;
 }
+
 
 body, html {
   height: 100%;
@@ -11,6 +13,12 @@ body, html {
 
 body {
   font-size: 14px;
+  caret-color:  rgba(255, 76, 121, 1);
+}
+
+input {
+  /* custom */
+  
 }
 
 .icon-row img:hover{
