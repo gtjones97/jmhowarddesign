@@ -1,5 +1,5 @@
 let lastTime = 0;
-const delay = 50; // Delay in milliseconds between asterisks
+const delay = 25; // Delay in milliseconds between asterisks
 
 document.addEventListener('mousemove', function(e) {
   const currentTime = Date.now();
@@ -14,8 +14,11 @@ document.addEventListener('mousemove', function(e) {
     
     setTimeout(() => {
       document.body.removeChild(trail);
-    }, 200); // Adjust time for fairy dust to disappear
+    }, 125); // Adjust time for fairy dust to disappear
 
     lastTime = currentTime;
   }
 });
+
+
+
