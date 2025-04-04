@@ -408,34 +408,6 @@ input {
   transition: all 0.3s eas;
 }
 
-.sticker {
-  position: absolute;
-  font-size: 2rem;
-  top: 100%;
-  animation: float 8s linear infinite;
-  opacity: 0.8;
-}
-
-#sticker-container{
-  z-index: -2;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-369px);
-    opacity: 0;
-  }
-}
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
@@ -668,9 +640,5 @@ footer {
       position: absolute;
       top: 299px;
       right: 117px;
-  }
-
-  #sticker-container {
-    display: none;
   }
 }
