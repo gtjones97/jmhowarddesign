@@ -410,8 +410,8 @@ input {
 
 #scrollTopBtn {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 60px;
+  right: 60px;
   width: 70px;
   height: 70px;
   border: none;
