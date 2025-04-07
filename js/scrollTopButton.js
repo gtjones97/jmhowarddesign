@@ -1,7 +1,7 @@
 const scrollBtn = document.getElementById("scrollTopBtn");
   
       window.addEventListener("scroll", function () {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 200) {
           scrollBtn.style.opacity = "0.8";
           scrollBtn.style.pointerEvents = "auto";
         } else {
