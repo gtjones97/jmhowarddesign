@@ -24,7 +24,7 @@ input {
   position: absolute; 
   height: 5px; 
   width: 5px; 
-  color: rgba(255, 76, 121, 1); /* or any style you like */
+  color: white; /* or any style you like */
   pointer-events: none; /* Prevents the trail from interfering with other mouse events */
   border-radius: 50%;
   font-size: 15px;
