@@ -411,7 +411,7 @@ input {
 #scrollTopBtn {
   position: fixed;
   bottom: 60px;
-  right: 30px;
+  right: 50px;
   width: 70px;
   height: 70px;
   border: none;
@@ -434,6 +434,12 @@ input {
   opacity: 1;
 }
 
+/* Only show and transition it on mobile sizes */
+@media (max-width: 768px) {
+  #scrollTopBtn {
+    right: 30px;
+  }
+}
 
 
 /* Media query for mobile devices */
