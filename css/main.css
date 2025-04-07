@@ -434,12 +434,6 @@ input {
   opacity: 1;
 }
 
-/* Only show and transition it on mobile sizes */
-@media (max-width: 768px) {
-  #scrollTopBtn {
-    display: block;
-  }
-}
 
 
 /* Media query for mobile devices */
