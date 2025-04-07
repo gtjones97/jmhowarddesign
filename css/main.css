@@ -418,7 +418,7 @@ input {
   border-radius: 50%;
   background-color: rgba(255, 76, 121, 1);
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -446,6 +446,7 @@ input {
 @media (max-width: 768px) {
   #scrollTopBtn {
     right: 30px;
+    font-size: 1.5rem;
   }
 }
 
