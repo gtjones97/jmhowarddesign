@@ -426,6 +426,7 @@ input {
   z-index: 1000;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   font-style: normal;
    /* Completely hide it by default on all sizes */
    visibility: hidden;
