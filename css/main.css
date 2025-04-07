@@ -417,8 +417,8 @@ input {
   border: none;
   border-radius: 50%;
   background-color: rgba(255, 76, 121, 1);
-  color: white;
-  font-size: 24px;
+  color: black;
+  font-size: 28px;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -432,6 +432,12 @@ input {
 
 #scrollTopBtn:hover {
   opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button-container > a:hover {
+
 }
 
 /* Only show and transition it on mobile sizes */
