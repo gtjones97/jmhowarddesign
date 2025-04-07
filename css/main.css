@@ -544,6 +544,7 @@ footer {
 
 .custom-container {
   max-width: 1200px;
+  height: 77px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -580,7 +581,8 @@ footer {
   font-family: Inter;
   font-size: 22px;
   color: black;
-  margin-left: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .custom-menu li a:hover {
