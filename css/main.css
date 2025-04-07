@@ -408,6 +408,39 @@ input {
   transition: all 0.3s eas;
 }
 
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 76, 121, 1);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  font-weight: bold;
+
+   /* Completely hide it by default on all sizes */
+   display: none;
+}
+
+#scrollTopBtn:hover {
+  opacity: 1;
+}
+
+/* Only show and transition it on mobile sizes */
+@media (max-width: 768px) {
+  #scrollTopBtn {
+    display: block;
+  }
+}
+
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
