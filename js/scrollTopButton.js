@@ -3,7 +3,7 @@ const scrollBtn = document.getElementById("scrollTopBtn");
 window.addEventListener("scroll", function () {
     if (window.scrollY > 500) {
 
-        scrollBtn.style.display = "block";
+        scrollBtn.style.visibility = "visible";
         scrollBtn.style.opacity = "0.8";
         scrollBtn.style.pointerEvents = "auto";
 
