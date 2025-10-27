@@ -9,6 +9,43 @@
 .about .div {
 }
 
+.main-heading-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    padding-top: 3rem;
+}
+
+.main-heading-left-column{
+  width: 50%;
+  height: 350px;
+}
+
+.main-heading-right-column {
+  width: 50%;
+  height: 350px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.main-heading-text p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Inter;
+}
+
+.main-subheading-text{
+  font-size: 1rem;
+  font-family: Inter;
+}
+
 .about .overlap-group {
   position: absolute;
   width: 488px;
@@ -398,7 +435,7 @@ justify-content: center;
 .services-section-one {
 width: 100%;
 max-width: 950px;
-height: 156px;
+height: 475px;
 background: rgba(255, 255, 255, 1);
 opacity: 1;
 position: relative;
@@ -406,8 +443,53 @@ top: 0px;
 left: 0px;
 overflow: hidden;
 margin: 0 auto;
-
 }
+.services-section-two {
+  position: relative;
+  width: 100vw;           /* Full width of the viewport */
+  left: 50%;              /* Move the element to the middle */
+  right: 50%;
+  margin-left: -50vw;     /* Pull it back so it aligns with viewport edges */
+  margin-right: -50vw;
+  background: #ff4875;    /* Your pink color */
+  height: 500px;          /* Example height */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+
+  .section-two-header-container {
+    max-width: 950px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    }
+
+  .section-two-header-text {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 4rem;
+  }
+
+  .section-two-body-text{
+    font-family: Inter;
+    font-size: 1rem;
+    text-align: left;
+    
+  }
+
+  .white-square-background{
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 10px;
+  }
+
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
