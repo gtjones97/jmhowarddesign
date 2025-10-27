@@ -54,7 +54,10 @@
 .client-breadcrumb {
   position: relative;
   margin-right: 30px;
-  /* Other styles for your <span> */
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 76, 121, 1);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
 }
 
 

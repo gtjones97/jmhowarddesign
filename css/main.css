@@ -24,7 +24,7 @@ input {
   position: absolute; 
   height: 5px; 
   width: 5px; 
-  color: rgba(255, 76, 121, 1); /* or any style you like */
+  color: white; /* or any style you like */
   pointer-events: none; /* Prevents the trail from interfering with other mouse events */
   border-radius: 50%;
   font-size: 15px;
@@ -69,7 +69,7 @@ input {
   text-decoration: none;
   font-family: Inter;
   font-size: 22px;
-  color: rgba(255, 76, 121, 1);
+  color: rgba(255, 76, 121, .8);
 }
 
 .link-container-wrapper {
@@ -148,7 +148,7 @@ input {
 .v6_181 {
   width: 100%;
   max-width: 950px;
-  height: 909px;
+  height: 650px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   /*position: relative;
@@ -173,7 +173,7 @@ input {
 
 .v6_182 {
   width: 100%;
-  height: 644px;
+  height: 369px;
   background: rgba(255, 76, 121, 1);
   opacity: 1;
   position: relative;
@@ -186,9 +186,11 @@ input {
   overflow: hidden;
   display: flex;
   align-items: center;
+  
 }
 
 .v6_183 {
+  display: contents;
   width: 82%;
   height: 523px;
   background: url("/images/home-photo.png");
@@ -202,27 +204,29 @@ input {
 }
 
 .v6_184 {
-  width: 392px;
-  height: 392px;
+  width: 600px;
+  height: 300px;
   background: rgba(255, 255, 255, 1);
   opacity: 0.9;
-  position: absolute;
-  top: 63px;
-  right: -40px;
+  position: relative;
+  margin: 0 auto;
   overflow: hidden;
+  border-radius: 6px;
+
 }
 
 .v6_185 {
-  width: 280px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 64px;
-  right: 40px;
+  position: relative;
+  display: inline-block;
+  top: 34px;
+  margin: 0 auto;
   font-family: Inter;
   font-weight: 900;
   font-size: 34px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
   line-height: normal;
   letter-spacing: 3.38px;
   text-transform: uppercase;
@@ -281,16 +285,16 @@ input {
 }
 
 .v6_192 {
-  width: 266px;
+  width: 327px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 134px;
-  right: 52px;
+  top: 100px;
+  right: 137px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .v6_197 {
@@ -310,8 +314,8 @@ input {
   width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: -41px;
+  left: -16px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 14px;
@@ -324,8 +328,8 @@ input {
   height: 42px;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -53px;
+  left: -40px;
   border: 1px solid rgba(0, 0, 0, 1);
   cursor: pointer;
   overflow: visible;
@@ -403,13 +407,57 @@ input {
   transform: scale(1.1);
   transition: all 0.3s eas;
 }
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 76, 121, 1);
+  color: black;
+  font-size: 1.75rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-style: normal;
+   /* Completely hide it by default on all sizes */
+   visibility: hidden;
+}
+
+#scrollTopBtn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button-container > a:hover {
+
+}
+
+/* Only show and transition it on mobile sizes */
+@media (max-width: 768px) {
+  #scrollTopBtn {
+    right: 30px;
+    font-size: 1.5rem;
+  }
+}
+
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
   .grid-container {
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
       /* Adjust this value if you need spacing between images */
-      width: 90%;
+      width:99%;
   }
 
   .grid-wrapper {
@@ -465,6 +513,9 @@ footer {
 .links-row>a:hover {
   color: rgba(255, 76, 121, 1);
 }
+
+
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
   .v6_198 {
@@ -502,6 +553,7 @@ footer {
 
 .custom-container {
   max-width: 1200px;
+  height: 77px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -538,7 +590,8 @@ footer {
   font-family: Inter;
   font-size: 22px;
   color: black;
-  margin-left: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .custom-menu li a:hover {
@@ -578,11 +631,12 @@ footer {
   }
 
   .v6_181 {
-      height: 823px;
+      height: 460px;
   }
 
   .v6_182 {
       top: 25px !important;
+      height: 280px;
   }
 
   .v6_183 {
@@ -591,33 +645,32 @@ footer {
   }
 
   .v6_184 {
-      width: 271px;
+      width: 315px;
       height: 222px;
       background: rgba(255, 255, 255, 1);
       opacity: 0.9;
-      position: absolute;
-      top: 337px;
-      right: -10px;
+      position: relative;
+    margin: 0 auto;
       overflow: hidden;
   }
 
   .v6_185 {
     top: 20px;
-      right: -45px;
+      right: -4px;
       font-size: 24px;
   }
 
   .v6_192 {
-      width: 205px;
+      width: 280px;
       color: rgba(0, 0, 0, 1);
       position: absolute;
-      top: 54px;
-      right: 29px;
+      top: 67px;
+      right: 17px;
       font-family: Inter;
       font-weight: Regular;
       font-size: 16px;
       opacity: 1;
-      text-align: left;
+      text-align: center;
   }
 
   .v6_197 {
