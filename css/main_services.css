@@ -481,7 +481,10 @@ margin: 0 auto;
     font-family: Inter;
     font-size: 1rem;
     text-align: left;
-    
+  }
+
+  .section-two-body-text li{
+    margin: 10px 0;
   }
 
   .white-square-background{
