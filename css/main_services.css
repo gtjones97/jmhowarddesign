@@ -1,9 +1,32 @@
+h3 {
+  font-family: Inter;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 .about {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.pricing-container{
+  width: 100%;
+}
+
+.pricing-child-container{
+  width: 33%;
+  padding-right: 20px;
 }
 
 .about .div {
@@ -16,17 +39,23 @@
     justify-content: center;
     align-items: flex-start;
     align-content: stretch;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .main-heading-left-column{
   width: 50%;
-  height: 350px;
+  height: 250px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .main-heading-right-column {
   width: 50%;
-  height: 350px;
+  height: 250px;
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -190,6 +219,7 @@
   left: 0px;
   margin: 0 auto;
 }
+
 
 .services-entry-container {
   width: 950px;
@@ -435,7 +465,7 @@ justify-content: center;
 .services-section-one {
 width: 100%;
 max-width: 950px;
-height: 475px;
+height: 307px;
 background: rgba(255, 255, 255, 1);
 opacity: 1;
 position: relative;
@@ -446,13 +476,13 @@ margin: 0 auto;
 }
 .services-section-two {
   position: relative;
-  width: 100vw;           /* Full width of the viewport */
-  left: 50%;              /* Move the element to the middle */
+  width: 100vw;          
+  left: 50%;             
   right: 50%;
-  margin-left: -50vw;     /* Pull it back so it aligns with viewport edges */
+  margin-left: -50vw;    
   margin-right: -50vw;
-  background: #ff4875;    /* Your pink color */
-  height: 500px;          /* Example height */
+  background: #ff4875;    
+  height: 100%;          
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -460,6 +490,31 @@ margin: 0 auto;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
+  }
+
+  .recent-work-grid-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* Adjust this value if you need spacing between images */
+    width: 950px;
+  }
+
+  .grid-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    cursor: pointer;
+    height: auto;
+  }
+  
+  .grid-item img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s eas;
   }
 
   .section-two-header-container {
@@ -472,7 +527,7 @@ margin: 0 auto;
   .section-two-header-text {
     font-family: Inter;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding-top: 4rem;
   }
@@ -482,6 +537,7 @@ margin: 0 auto;
     font-size: 1rem;
     text-align: left;
   }
+  
 
   .section-two-body-text li{
     margin: 10px 0;
