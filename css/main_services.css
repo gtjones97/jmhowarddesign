@@ -238,6 +238,7 @@ h3 {
 .column {
   box-sizing: border-box;
   padding: 10px;
+
 }
 
 .column-c {
@@ -492,6 +493,142 @@ margin: 0 auto;
     align-content: center;
   }
 
+ .services-section-three{
+  padding-right: 3rem;
+  }
+
+  .about-artist-body-text{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    margin-left: 20px;
+    width: 66%;
+  }
+
+  .artist-body-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .profile-pic-container{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .services-section-four {
+    font-family: Inter;
+    position: relative;
+    width: 100vw;          
+    left: 50%;             
+    right: 50%;
+    margin-left: -50vw;    
+    margin-right: -50vw;
+    background: black;
+    color: white;    
+    height: 100%;          
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+    }
+
+    .bold-text-container{
+      width: 100%;
+      max-width: 950px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+      align-content: stretch;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+.bold-text-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+  font-family: Inter;
+}
+    .bold-text-left{
+      width: 33%;
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: left;
+    }
+
+    .bold-text-right{
+      width: 39%;
+      font-size: 1.5rem;
+      text-align: left;
+      padding-top: 12px;
+
+    }
+
+
+  .column {
+    margin-left: 20px;
+  }
+
+  .about-column{
+    margin-left: 20px;
+    box-sizing: border-box;
+
+  }
+
+  .column h4::before{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.5rem;
+    background-color: #484C70;
+
+  }
+
+  .work-history-entry-container{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #f5f5f5;
+  justify-content:left;
+  padding-right: 0;
+  padding-bottom: 2rem;
+ margin-bottom: 5rem;
+ border: 2px dashed rgba(255, 76, 121, 1);
+  }
+
+.profile-pic img{
+  width: 100%;
+  height:100%;
+  border-radius: 50%;
+}
+
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  margin-right: 1rem;
+}
+
+
   .recent-work-grid-container {
     margin-top: 20px;
     display: grid;
@@ -522,6 +659,14 @@ margin: 0 auto;
     width: 100%;
     justify-content: center;
     align-content: center;
+    padding-right: 7rem;
+    }
+
+  mark{
+    background-color: white;
+    opacity: 0.9;
+    padding: 5px;
+    border-radius: 5px;
     }
 
   .section-two-header-text {
