@@ -2,6 +2,7 @@ h3 {
   font-family: Inter;
   font-weight: bold;
   margin-top: 2rem;
+  line-height: 1.5rem;
 }
 
 .pricing-container{
@@ -68,6 +69,7 @@ h3 {
   font-size: 2rem;
   font-weight: bold;
   font-family: Inter;
+  line-height: 3rem;
 }
 
 .main-subheading-text{
